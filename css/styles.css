@@ -1,0 +1,277 @@
+/*base*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  background-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.lower-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+/*header*/
+.page-header {
+  margin-bottom: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.page-header .container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 76px;
+}
+
+.logo .halflogo {
+  color: #2e2f42;
+}
+
+.page-nav {
+  font-weight: 500;
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+}
+
+.page-nav .link {
+  color: #2e2f42;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus,
+.page-nav .link:active {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts .contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts .contacts-list .link {
+  color: #434455;
+  font-style: normal;
+  min-width: 151px;
+}
+
+.contacts .contacts-list .link:hover,
+.contacts .contacts-list .link:focus {
+  color: #404bbf;
+}
+
+/*1st section*/
+.first-section {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.first-section .container {
+  display: flex;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.first-section .page-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+}
+
+.first-section .button {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  line-height: 1.5;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.first-section .button:hover,
+.first-section .button:focus {
+  background-color: #404bbf;
+}
+
+/*2nd section*/
+.section-about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+}
+
+.section-about .container .adv-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-about .container .adv-list li {
+  min-width: 264px;
+  max-height: 104px;
+}
+
+.section-title-about {
+  visibility: hidden;
+}
+
+/*3 section*/
+.third-section {
+  background-color: #f4f4fd;
+}
+
+.third-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+  gap: 24px;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.team-list {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.third-section .team-list .team-member {
+  background-color: #ffffff;
+}
+
+/*4th section portfolio*/
+.portfolio-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-list li {
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  max-width: 360px;
+}
+
+/*Footer*/
+.footer-page {
+  background-color: #2e2f42;
+  padding: 100px 0;
+  max-height: 312px;
+  width: 100%;
+}
+
+.footer-page .container {
+  display: block;
+  margin-left: 156px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.logo .halflogo-white {
+  color: #f4f4fd;
+}
+
+.advice {
+  color: #f4f4fd;
+  display: flex;
+  max-width: 264px;
+}
