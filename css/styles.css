@@ -191,7 +191,7 @@ img {
   overflow: hidden;
 }
 
-.section-about .container .adv-list {
+.adv-list {
   display: flex;
   gap: 24px;
 }
@@ -295,7 +295,7 @@ img {
 }
 
 .port-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .portfolio-list .port-item .container {
