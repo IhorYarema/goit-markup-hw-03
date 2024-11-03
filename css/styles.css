@@ -196,7 +196,7 @@ img {
   gap: 24px;
 }
 
-.adv-list .adv-list-item {
+.adv-list-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -238,7 +238,7 @@ img {
   gap: 24px;
 }
 
-.team-list .team-member {
+.team-member {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
