@@ -196,7 +196,7 @@ img {
   gap: 24px;
 }
 
-.adv-list .adv-list-item {
+.adv-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -294,7 +294,7 @@ img {
   padding: 0;
 }
 
-.portfolio-list .port-item {
+.port-item {
   width: calc((100% - 48px) / 3);
 }
 
