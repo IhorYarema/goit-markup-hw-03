@@ -197,7 +197,7 @@ img {
 }
 
 .adv-list-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .adv-list .adv-list-item .lower-header {
@@ -240,7 +240,7 @@ img {
 
 .team-member {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -295,7 +295,7 @@ img {
 }
 
 .port-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .portfolio-list .port-item .container {
