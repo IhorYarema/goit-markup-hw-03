@@ -107,12 +107,9 @@ img {
   margin-right: 332px;
 }
 
-.menu-item {
-  padding: 24px 0;
-}
-
 .page-menu .link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .page-menu .link:hover,
