@@ -78,8 +78,7 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
-  margin-right: 317px;
-  padding: 0 15px;
+  margin-right: auto;
 }
 
 .logo {
@@ -294,7 +293,6 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
@@ -332,11 +330,8 @@ img {
 }
 
 .footer-page .container {
-  display: block;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  margin-left: 156px;
 }
 
 .footer-page .logo {
